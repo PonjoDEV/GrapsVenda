@@ -1,4 +1,4 @@
-package View;
+package CONTROLLER;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ import MODEL.Fornecedor;
 
 import MODEL.DAO.FornecedorBD;
 
-public class FornecedorView {
+public class FornecedorControl {
 
     public static void cadastroFornecedor() {
 

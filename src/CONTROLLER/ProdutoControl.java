@@ -1,4 +1,4 @@
-package View;
+package CONTROLLER;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ import MODEL.Produto;
 
 import MODEL.DAO.ProdutoBD;
 
-public class ProdutoView {
+public class ProdutoControl {
 
     public static void cadastroProduto() {
 

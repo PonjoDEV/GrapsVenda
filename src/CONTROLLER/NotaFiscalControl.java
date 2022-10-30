@@ -1,4 +1,4 @@
-package View;
+package CONTROLLER;
 
 import java.util.Scanner;
 import java.util.Vector;
@@ -9,7 +9,7 @@ import MODEL.DAO.ClienteBD;
 import MODEL.DAO.NotaFiscalBD;
 import MODEL.DAO.ProdutoBD;
 
-public class NotaFiscalView {
+public class NotaFiscalControl {
 
     public static void cadastroNF() {
         int i = 1;
@@ -43,6 +43,7 @@ public class NotaFiscalView {
         String nomeCliente = "Não cadastrado";
         System.out.println("Informe o CPF do cliente se for cadastrado, caso não seja digite 0");
         int CPF = in.nextInt();
+        
         if (CPF!=0) {
             for (int j = 0; j < ClienteBD.clientes.size(); j++) {
                 if (CPF==ClienteBD.clientes.get(j).getCpfCliente()) {

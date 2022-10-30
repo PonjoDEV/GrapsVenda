@@ -1,4 +1,4 @@
-package View;
+package CONTROLLER;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ import MODEL.Cliente;
 
 import MODEL.DAO.ClienteBD;
 
-public class ClienteView {
+public class ClienteControl {
 
     public static void cadastroCliente() {
 
